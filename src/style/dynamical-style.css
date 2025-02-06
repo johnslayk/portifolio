@@ -1,0 +1,93 @@
+@keyframes openclose{
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 260px;
+        }
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+body {
+	font-family:'Lato', sans-serif !important;
+	font-size: 13pt !important;
+	font-weight: 300 !important;
+}
+/*---------------------------------------------*/
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-bottom: 20px;
+}
+#myPageContent, section { 
+	height:100% !important; 
+	width:100% !important;
+}
+
+/* Slider */
+#textSlider.row {
+	width: 100% !important;
+}
+#textSlider div {
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.iamCol {
+    text-align: right;
+	float: left;
+	font-weight: 300;
+	font-size:30pt;
+}
+.iamCol p:nth-child(2) { margin-top: -20pt !important; }
+.slideCol {
+	text-align: left;
+    overflow: hidden;
+	font-weight: 900;
+	font-size:70pt;
+	display: block;
+	white-space: nowrap;
+}
+.slideCol p { margin: 0px !important; }
+
+.scroller {
+   height: 70pt;
+   line-height: 70pt;
+   overflow: hidden;
+}
+.scroller .inner { animation: 10s normal infinite running scroll; }
+
+@keyframes scroll {
+   0%  	{margin-top: 0px;}
+   15% 	{margin-top: 0px;}
+
+   25%  {margin-top: -70pt;}
+   40%  {margin-top: -70pt;}
+   
+   50%  {margin-top: -140pt;}
+   65%  {margin-top: -140pt;}
+
+   75%  {margin-top: -210pt;}
+   90%  {margin-top: -210pt;}
+
+   100% {margin-top: 0px;}
+}
+
+@keyframes scroll {
+        0%  	{margin-top: 0px;}
+        15% 	{margin-top: 0px;}
+     
+        25%  {margin-top: -70pt;}
+        40%  {margin-top: -70pt;}
+        
+        50%  {margin-top: -140pt;}
+        65%  {margin-top: -140pt;}
+     
+        75%  {margin-top: -210pt;}
+        90%  {margin-top: -210pt;}
+     
+        100% {margin-top: 0px;}
+}
+     

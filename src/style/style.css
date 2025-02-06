@@ -1,0 +1,241 @@
+html{
+    background-image: var(--bg-gra);
+    scroll-behavior: smooth;
+    /*background-color: #000;*/
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: #000;
+    max-height: 5%;
+    width:98%;
+}
+
+.head .nome{
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+    color: #fff;
+    font-family: var(--font-pr);
+}
+
+.head .nome .mylogo{
+    display: flex;
+    align-items: center;
+}
+.head .nome .mylogo img{
+    max-height: 30px;
+}
+
+.head .social{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-pr);
+    font-size: 18px;
+    color: #fff;
+    align-items: center;
+    
+}
+.head .social .message a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.head .social .fab{
+    font-size: 22px;
+}
+
+.social .linkedin, .github, .instagram, .whatsapp{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 0px;
+    width: 115px;
+}
+
+.social .message{
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position:static;
+    padding-left: 0rem;
+    top: 0rem;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    animation-iteration-count: 0;
+    width: 100%;
+  }
+
+
+.linkedin:hover .message{
+    animation-iteration-count: 1;
+    animation: openclose 0.5s ease-in-out both;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+}
+.github:hover .message{
+    animation-iteration-count: 1;
+    animation: openclose 0.5s ease-in-out both;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+}
+.instagram:hover .message{
+    animation-iteration-count: 1;
+    animation: openclose 0.5s ease-in-out both;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+}
+.whatsapp:hover .message{
+    animation-iteration-count: 1;
+    animation: openclose 0.5s ease-in-out both;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+
+.principal-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 80%;
+    height: 900px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    align-items: center;
+}
+
+.main .myinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-pr);
+    font-size: 32px;
+    color: #fff;
+    list-style: none;
+    max-width: 870px;
+    margin-top: 150px;
+}
+
+.main .myinfo h1{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+.main .myinfo p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main .myinfo .projects{
+    margin-top: 4rem;
+}
+.main .myinfo .projects .projects__button{background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%)}
+.main .myinfo .projects .projects__button{
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #3A6073;
+    border-radius: 10px;
+    display: block;
+
+}
+.main .myinfo .projects .projects__button:hover{
+    background-position: right center;
+    color: #fff;
+}
+
+
+.main .container-img{
+    width: 400px;
+    border-radius: 50%;
+    border: solid #f9b9a9;
+    overflow: hidden;
+    background:var(--bg-pic);
+}
+.main .container-img img{
+    width: 400px;
+}
+
+.my-projects{
+    padding-bottom: 50px;
+    margin-top: 250px;
+}
+
+.my-projects .title{
+    font-family: var(--font-pr);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px  100px 50px;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.my-projects .container-projects{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.my-projects .project{
+    background-color: #000;
+    max-width: 375px;
+    max-height: 700px;
+    position: relative;
+}
+
+.my-projects .project img{
+    height: 100%;
+}
+
+.my-projects .project a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-projects .project h3{
+    background-color: black;
+    color: #fff;
+    font-family: var(--font-pr);
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    bottom: 0;
+    transition: 0.3s;
+}
+.my-projects .project h3:hover{
+    color: #f9b9a9;
+}
+
+

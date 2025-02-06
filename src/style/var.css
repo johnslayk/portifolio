@@ -1,0 +1,8 @@
+:root{
+    --font-pr: "Convergence", serif;
+    --bg-pic:linear-gradient(150deg, #b3b3b3 0%, #485563 100%);
+
+    --bg-gra: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(26,26,57,1) 0%, rgba(0,0,0,1) 100%);
+
+}
