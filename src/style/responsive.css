@@ -3,8 +3,8 @@
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 479px) {
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
-    .iamCol { text-align: center; font-size:20pt; }
-	.iamCol p { display: inline !important; }
+    .iamCol { text-align: center; font-size:20pt;height: 93px;}
+	.iamCol p { display: right !important;font-size: 32px;}
 	.slideCol { font-size: 25pt; text-align: center; margin-top: -20px; }
 }
 
@@ -55,6 +55,20 @@
 }
 
 @media(max-width : 828px) and (min-width : 480px){
+    .head{flex-wrap: wrap; justify-content: center;}
+    .head .social{flex-wrap: wrap; font-size: 20px; gap: 20px; justify-content: center;}
+    .head .nome{font-size: 32px; margin-bottom: 5px;}
+    .main{flex-wrap: wrap;}
+    .main .container-img{visibility: hidden; height: 0px;}
+    .my-projects .project img{max-width: 300px;}
+    .my-projects .project{max-width: 300px;}
+    .my-projects .container-projects{gap: 50px;}
+    .main .myinfo{font-size: 25px; margin-top: 50px;}
+    .social .linkedin, .instagram{width: 150px;}
+    .social .github, .whatsapp{flex-direction:row-reverse;}
+}
+
+@media(max-width : 479px) and (min-width : 320px){
     .head{flex-wrap: wrap; justify-content: center;}
     .head .social{flex-wrap: wrap; font-size: 20px; gap: 20px; justify-content: center;}
     .head .nome{font-size: 32px; margin-bottom: 5px;}
