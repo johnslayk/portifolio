@@ -2,6 +2,7 @@
     --font-pr: "Convergence", serif;
     --bg-pic:linear-gradient(150deg, #b3b3b3 0%, #485563 100%);
 
-    --bg-gra: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(26,26,57,1) 0%, rgba(0,0,0,1) 100%);
+    --bgmobile:linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(33,41,60,1) 15%, rgba(26,26,57,1) 50%, rgba(8,8,30,1) 100%);
+
+    --bg-gra: rgb(0,0,0); background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(26,26,57,1) 0%, rgba(0,0,0,1) 100%);
 }
