@@ -79,6 +79,13 @@
     /* .social .linkedin, .instagram{width: 150px;} */
     .social .github, .whatsapp{flex-direction:row-reverse;}
     .social .message{visibility: visible;opacity: 1;}
+    .linkedin:hover .message,
+    .github:hover .message,
+    .instagram:hover .message,
+    .whatsapp:hover .message {
+        animation: none;
+        transition: none;}
+    
 }
 
 @media(max-width : 479px) and (min-width : 320px){
@@ -106,4 +113,10 @@
     .main .myinfo{font-size: 25px; margin-top: 50px;}
     .social .github, .whatsapp{flex-direction:row-reverse;}
     .social .message{visibility: visible;opacity: 1;}
+    .linkedin:hover .message,
+    .github:hover .message,
+    .instagram:hover .message,
+    .whatsapp:hover .message {
+        animation: none;
+        transition: none;}
 }
