@@ -9,14 +9,15 @@ body{
     align-items: center;
 }
 
+
 .head{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1.5rem;
-    background-color: #000;
-    max-height: 5%;
-    width:98%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width:100%;
+    position: fixed;
 }
 
 .head .nome{
@@ -56,9 +57,9 @@ body{
 .social .linkedin, .github, .instagram, .whatsapp{
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin:0 20px;
     padding: 0px;
-    width: 115px;
+    width: 117px;
 }
 
 .social .message{
@@ -119,6 +120,7 @@ body{
 
 
 .main{
+    margin-top: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

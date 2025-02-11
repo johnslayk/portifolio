@@ -56,29 +56,54 @@
 
 @media(max-width : 828px) and (min-width : 480px){
     .head{flex-wrap: wrap; justify-content: center;}
-    .head .social{flex-wrap: wrap; font-size: 20px; gap: 20px; justify-content: center;}
+    .head .social{
+        flex-wrap: wrap; 
+        font-size: 20px; 
+        justify-content: center;
+        flex-direction: row-reverse;
+        text-align: center;
+        margin:0 25px;}
     .head .nome{font-size: 32px; margin-bottom: 5px;}
     .main{flex-wrap: wrap;}
     .main .container-img{visibility: hidden; height: 0px;}
     .my-projects .project img{max-width: 300px;}
-    .my-projects .project{max-width: 300px;}
-    .my-projects .container-projects{gap: 50px;}
+    .my-projects .project{max-width: 300px;text-align: center; background: none;}
+    .my-projects .project h3{background: none;}
+    .my-projects .container-projects{
+        width: min-content;
+        margin: 0 auto;
+        gap: 50px;
+        position: relative;
+        background-color: rgba(10,10,10,0.8);}
     .main .myinfo{font-size: 25px; margin-top: 50px;}
-    .social .linkedin, .instagram{width: 150px;}
+    /* .social .linkedin, .instagram{width: 150px;} */
     .social .github, .whatsapp{flex-direction:row-reverse;}
+    .social .message{visibility: visible;opacity: 1;}
 }
 
 @media(max-width : 479px) and (min-width : 320px){
     body{background: var(--bgmobile)}
     .head{flex-wrap: wrap; justify-content: center;}
-    .head .social{flex-wrap: wrap; font-size: 20px; gap: 20px; justify-content: center;}
+    .head .social{
+        flex-wrap: wrap; 
+        font-size: 20px; 
+        justify-content: center; 
+        flex-direction: row-reverse;
+        text-align: center;}
     .head .nome{font-size: 32px; margin-bottom: 5px;}
     .main{flex-wrap: wrap;}
     .main .container-img{visibility: hidden; height: 0px;}
     .my-projects .project img{max-width: 300px;}
-    .my-projects .project{max-width: 300px;}
-    .my-projects .container-projects{gap: 50px;}
+    .my-projects .project{max-width: 300px; text-align: center; background: none;}
+    .my-projects .project h3{background: none;}
+    .my-projects .container-projects{
+        width: min-content;
+        margin: 0 auto;
+        gap: 50px;
+        position: relative;
+        background-color: rgba(10,10,10,0.8);}
+    .my-projects .title{font-size: 35px; padding-left:0;}
     .main .myinfo{font-size: 25px; margin-top: 50px;}
-    .social .linkedin, .instagram{width: 150px;}
     .social .github, .whatsapp{flex-direction:row-reverse;}
+    .social .message{visibility: visible;opacity: 1;}
 }
